@@ -7,7 +7,7 @@ from config import app_config
 flask_app = Flask(__name__.split('.')[0])
 
 
-@flask_app.route('/statusz', methods=['GET'], strict_slashes=False)
+@flask_app.route('/', methods=['GET'], strict_slashes=False)
 def statusz():
     """Get the statusz"""
     return 'Kowalski, status report!<br><br> -> Excellent', 200
