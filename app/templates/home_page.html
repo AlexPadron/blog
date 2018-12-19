@@ -4,7 +4,9 @@
   </head>
   <body>
     {% for page in pages %}
-    <a href="/pages/{{ page }}">{{ page }}</a></br>
+    <h3><a href="/pages/{{ page.url }}">{{ page.title }}</a></h3>
+    <p>{{ page.description }}</p>
+    <p>Author: {{ page.author }}</p>
     {% endfor %}
   </body>
 </html>

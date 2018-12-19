@@ -1,0 +1,5 @@
+{
+  "title": "Load Balancing with GRPC and Kube",
+  "description": "This post describes how to achieve load balancing between multiple GRPC server replicas within a Kube cluster",
+  "author": "Alex Padron"
+}
