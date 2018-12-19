@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>Home Page</title>
+  </head>
+  <body>
+    {% for page in pages %}
+    <a href="/pages/{{ page }}">{{ page }}</a></br>
+    {% endfor %}
+  </body>
+</html>
