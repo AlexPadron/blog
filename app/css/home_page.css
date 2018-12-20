@@ -1,0 +1,9 @@
+footer {
+    border: 1px groove #aaaaaa;
+    vertical-align: bottom;
+    line-height: normal;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+}

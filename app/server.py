@@ -11,7 +11,7 @@ from config import app_config
 PAGES_DIR = 'pages/'
 HOME_PAGE_TEMPLATE = 'home_page.html'
 BLOG_PAGE_TEMPLATE = 'blog_page.html'
-flask_app = Flask(__name__.split('.')[0])
+flask_app = Flask(__name__.split('.')[0], static_folder='css')
 
 
 all_md_content = {}

@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Home Page</title>
+    <link rel="stylesheet" href="css/home_page.css">
   </head>
   <body>
     {% for page in pages %}
@@ -9,4 +10,8 @@
     <p>Author: {{ page.author }}</p>
     {% endfor %}
   </body>
+  <footer>
+    <p>Contact: alex_p@alum.mit.edu</p>
+    <p><a href="https://github.com/AlexPadron/blog">Source code for site</a></p>
+  </footer>
 </html>
