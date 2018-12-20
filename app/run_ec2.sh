@@ -2,7 +2,7 @@
 
 # Start ssh agent and add id
 eval "$(ssh-agent -s)"
-ssh-add ../id_aws
+ssh-add ../../id_aws
 
 # stop existing server
 killall python3
